@@ -36,3 +36,12 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem "thin", ">= 1.5.0"
+gem "haml-rails", ">= 0.4"
+gem "html2haml", ">= 1.0.1", :group => :development
+gem "minitest-spec-rails", ">= 4.3.8", :group => :test
+gem "minitest-wscolor", ">= 0.0.3", :group => :test
+gem "compass-rails", ">= 1.0.3", :group => :assets
+gem "zurb-foundation", ">= 4.0.9", :group => :assets
+gem "simple_form", ">= 2.1.0"
